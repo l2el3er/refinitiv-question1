@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import App from './App.vue'
+import Question1 from './Question1.vue'
 
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+  render: h => h(Question1),
 }).$mount('#app')
